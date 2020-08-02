@@ -1,27 +1,31 @@
 {
-  "name": "11-homework",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "### Overview",
+  "description": "eat da burger",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "handlebars-helper-css": "^0.1.0",
+    "express-handlebars": "^5.1.0",
     "mysql": "^2.18.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Knzmck/burger.git"
+    "url": "git+https://github.com/JoeHernandezII/burger.git"
   },
-  "author": "",
+  "keywords": [
+    "eat",
+    "da",
+    "burger"
+  ],
+  "author": "joe hernandez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Knzmck/burger/issues"
+    "url": "https://github.com/JoeHernandezII/burger/issues"
   },
-  "homepage": "https://github.com/Knzmck/burger#readme"
+  "homepage": "https://github.com/JoeHernandezII/burger#readme"
 }
